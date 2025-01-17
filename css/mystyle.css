@@ -1,0 +1,147 @@
+.container{
+  background-color: white;
+  margin-top:0px;
+  margin-button:0px;
+  margin-left:50px;
+  margin-right:50px;
+  padding:3px;
+}
+body{
+  margin:0;
+  background-color: gray;
+}
+hr{
+ border: 1px solid red;
+ margin:1px;
+}
+.header{
+    background-color: green;
+    color:white;
+    padding: 10px;
+    text-align:center;
+    font-size:15px;
+  }
+  /* style for menu */
+  .navbar {
+    overflow: hidden;
+    background-color: skyblue;
+  }
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;.
+
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*End of menu style */
+/*style for form and its elements */
+form{
+  background-color: lightblue;
+  border-style:solid;
+  border-radius: 5px;
+  border-width:1px;
+  padding:3px;
+  margin:3px;
+}
+input[type=text],input[type=date],
+input[type=password],
+input[type=number],select,textarea{
+  width:100%;
+  padding:10px;
+  border: 1px solid #ccc;
+  border-radious: 4px;
+  resize:vertical;
+}
+label{
+  padding:10px;
+  display:inline-block;
+  font-weight:bold;
+}
+input[type=submit]{
+  background-color:#04AA6D;
+  color:white;
+  padding:12px;
+  border:none;
+  border-radius: 4px;
+  cursor:pointer;
+  float:left;
+  margin: 3px;
+}
+input[type=submit]:hover{
+  background-color: #45a049;
+}
+.col-1{
+  float:left;
+  width:100%;
+}
+.col-2{
+  float:left;
+  width:50%;
+}
+.col-3{
+  float:left;
+  width:33.333%;
+}
+.col-label{
+  float:left;
+  width:12.5%;
+}
+.col-data{
+  float:left;
+  width:37.5%;
+}
+.row:after{
+  content:"";
+  display:table;
+  clear:both;
+  margin:3px;
+}
+@media screen and (max-width:600px){
+  .col-1, .col-2, .col-3, .col-label, .col-data,
+  input[type=submit]{
+    width:100%;
+    margin-top:0;
+  }
+}
+/*end of style for form and its element*/
